@@ -1,0 +1,14 @@
+# Python junk
+__pycache__/
+*.py[cod]
+
+# Large Data files (Keep these local)
+*.csv
+
+# Saved Models and Logs
+*.pkl
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
