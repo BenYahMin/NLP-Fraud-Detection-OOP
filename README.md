@@ -35,5 +35,4 @@ Install dependencies: pip install pandas scikit-learn.
 
 Run the main script:
 
-Bash
 python sprint3_milestone56.py
