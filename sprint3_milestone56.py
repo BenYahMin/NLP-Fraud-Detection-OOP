@@ -4,8 +4,8 @@ sprint3_milestone56.py
 Milestone 5 — Concurrency & High Performance
 Milestone 6 — Research Innovation: Active Learning Integration
 
-Author  : Benjamin (refactored by Senior Systems Architect)
-Dataset : fake_job_postings.csv  (Kaggle EMSCAD)
+Authors  : Group 8 members
+Dataset : fake_job_postings.csv  (Kaggle)
 """
 
 # ─────────────────────────────────────────────
