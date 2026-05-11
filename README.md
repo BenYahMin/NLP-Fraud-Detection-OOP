@@ -31,7 +31,7 @@ Documentation: Research-level analysis generated for conference-standard reporti
 ## How to Run
 Ensure you have the fake_job_postings.csv in the root directory.
 
-Install dependencies: pip install pandas scikit-learn.
+Install dependencies: from the requirements.txt
 
 Run the main script:
 
