@@ -36,3 +36,8 @@ Install dependencies: from the requirements.txt
 Run the main script:
 
 python sprint3_milestone56.py
+
+
+
+### look into lematization, class imbalance handling, hyperparameter tuning, model versioning for rolling back
+### deploy this as a web service
