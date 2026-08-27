@@ -1,0 +1,29 @@
+nlp-fraud-engine/
+├── app/
+│   ├── __init__.py
+│   ├── main.py                  # FastAPI application entry point
+│   ├── config.py                # Pydantic environment settings
+│   ├── api/
+│   │   ├── __init__.py
+│   │   └── v1/
+│   │       ├── __init__.py
+│   │       ├── router.py        # API endpoint definitions
+│   │       └── schemas.py       # Pydantic request/response schemas
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── preprocessor.py   # PII scrubbing & text normalization
+│   │   ├── rule_engine.py    # Regex & heuristic rules matcher
+│   │   ├── model_service.py  # Transformer inference wrapper
+│   │   └── fusion.py         # Score aggregation & action mapping
+│   └── utils/
+│       ├── __init__.py
+│       └── logger.py            # Structured JSON logging
+├── models/
+│   └── tokenizer/               # Local model weights / tokenizer cache
+├── tests/
+│   ├── test_api.py
+│   └── test_rules.py
+├── .env.example
+├── Dockerfile
+├── requirements.txt
+└── README.md
